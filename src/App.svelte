@@ -1,9 +1,9 @@
 <script>
-  import Chart from './Chart.svelte';
-  import AccessibleChart from './AccessibleChart.svelte';
-  import ReactiveDataStory from './ReactiveDataStory.svelte';
-  import ReactiveStores from './ReactiveStores.svelte';
-  import Mapping from './Mapping.svelte';
+  import Chart from './components/Chart.svelte';
+  import AccessibleChart from './components/AccessibleChart.svelte';
+  import ReactiveDataStory from './components/ReactiveDataStory.svelte';
+  import ReactiveStores from './components/ReactiveStores.svelte';
+  import Mapping from './components/Mapping.svelte';
 
   let selectedComponent = 'Chart'; // Default selection
 
